@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --fonte-digital: "Jaro", sans-serif;
+    --fonte-padrão: "Oswald", sans-serif;
+    --verde-tóxico: #16FF00;
+}
+
+
+.contactPage {
+    background-color: black;
+}
+
+.contactPageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactPageTitle {
+    font-size: 30px;
+    font-family: var(--fonte-digital);
+    font-weight: 400;
+    color: #fff;
+    filter: drop-shadow(0 0 5px);
+}
+
+.contactPageSubtitle {
+    font-size: 20px;
+    font-family: var(--fonte-padrão);
+    font-weight: 800;
+    color: #fff;
+    filter: drop-shadow(0 0 0px);
+    margin: 0;
+}
+
+.formCorrect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 520px;
+    border: 4px solid #fff;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.formTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 250px;
+    height: 50px;
+}
+
+.formTitle {
+    font-size: 20px;
+    font-family: var(--fonte-padrão);
+    font-weight: 800;
+    filter: drop-shadow(0 0 0.5px black);
+    color: black;
+    margin: 2px;
+}
+
+.formTitleIcon {
+    font-size: 20px;
+}
+
+.intoFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 10px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: center;
+}
+
+.label {
+    font-size: 20px;
+    font-family: var(--fonte-padrão);
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+}
+
+.input {
+    font-size: 15px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background-color: black;
+    color: #fff;
+}
+
+::placeholder {
+    font-family: var(--fonte-digital);
+    color: #fff;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+    background-color: var(--verde-tóxico);
+    width: 100px;
+    height: 30px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.formButton {
+    font-size: 25px;
+    font-family: var(--fonte-padrão);
+    font-weight: 800;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonIconClick {
+    font-size: 25px;
+    color: black; 
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialTitle {
+    font-size: 50px;
+    font-family: var(--fonte-digital);
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 0;
+}
+.socialSubtitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    width: 250px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+
+.socialSubtitle {
+    font-size: 15px;
+    font-family: var(--fonte-padrão);
+    font-weight: 800;
+    color: #fff;
+    margin: 0;
+}
+
+.linkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 50px;
+}
+
+.linkContainerInto {
+    padding: 3px;
+    background-color: black;
+    border-radius: 2px;
+    border: 2px solid #fff;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.linkIcon {
+    font-size: 35px;
+    color: #fff;
+}
+
+@media (min-width: 1024px) {
+    .contactPageTitle {
+        font-size: 50px;
+        font-family: var(--fonte-digital);
+        font-weight: 400;
+        color: #fff;
+        filter: drop-shadow(0 0 5px);
+    }
+    
+    .contactPageSubtitle {
+        font-size: 30px;
+        font-family: var(--fonte-padrão);
+        font-weight: 800;
+        color: #fff;
+        filter: drop-shadow(0 0 0px);
+        margin: 0;
+    }
+    
+    .formCorrect {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .formContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 750px;
+        height: 670px;
+        border: 4px solid #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 25px #fff;
+        background-color: black;
+    }
+    
+    .formTitleContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        width: 750px;
+        height: 90px;
+    }
+    
+    .formTitle {
+        font-size: 30px;
+        font-family: var(--fonte-padrão);
+        font-weight: 800;
+        filter: drop-shadow(0 0 0.5px black);
+        color: black;
+        margin: 2px;
+    }
+    
+    .formTitleIcon {
+        font-size: 25px;
+    }
+    
+    .intoFormContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin: 10px;
+    }
+    
+    .inputContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+        justify-content: center;
+    }
+    
+    .label {
+        font-size: 30px;
+        font-family: var(--fonte-padrão);
+        font-weight: 800;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .input {
+        font-size: 20px;
+        width: 550px;
+        height: 30px;
+        border: 4px solid #fff;
+        border-radius: 3px;
+        background-color: black;
+        color: #fff;
+    }
+    
+    ::placeholder {
+        font-family: var(--fonte-digital);
+        color: #fff;
+    }
+    
+    .buttonContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+    
+        background-color: var(--verde-tóxico);
+        width: 350px;
+        height: 40px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    
+    .formButton {
+        font-size: 35px;
+        font-family: var(--fonte-padrão);
+        font-weight: 800;
+        color: black;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .buttonIconClick {
+        font-size: 30px;
+        color: black; 
+    }
+    
+    .socialContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .socialTitle {
+        font-size: 50px;
+        font-family: var(--fonte-digital);
+        font-weight: 800;
+        color: #fff;
+        margin-bottom: 0;
+    }
+    .socialSubtitleContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2px;
+        width: 550px;
+        height: 30px;
+        border: 1px solid #fff;
+        border-radius: 30px;
+    }
+    
+    .socialSubtitle {
+        font-size: 25px;
+        font-family: var(--fonte-padrão);
+        font-weight: 800;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .linkContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        margin-bottom: 50px;
+    }
+    
+    .linkContainerInto {
+        padding: 3px;
+        background-color: black;
+        border-radius: 2px;
+        border: 2px solid #fff;
+        width: 50px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+    
+    .linkIcon {
+        font-size: 35px;
+        color: #fff;
+    }
+}

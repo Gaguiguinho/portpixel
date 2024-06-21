@@ -59,7 +59,7 @@ const ProjetosPage = () => {
                             <p className={styles.workContainerSubtitle}>
                                 Cartão de visita digital
                             </p>
-                            <a className={styles.workContainerLink} href=' https://markinhos-contact-link.vercel.app/' target='blank'>
+                            <a className={styles.workContainerLink} href='https://markinhos-contact-link.vercel.app/' target='blank'>
                                 https://markinhos-contact-link.vercel.app/
                             </a>
                         </div>
@@ -78,7 +78,7 @@ const ProjetosPage = () => {
                             <p className={styles.workContainerSubtitle}>
                                 Loading
                             </p>
-                            <a className={styles.workContainerLink}>
+                            <a className={styles.workContainerLink} href='#'>
                                 https://seusite.com.br
                             </a>
                         </div>
@@ -98,7 +98,7 @@ const ProjetosPage = () => {
                             <p className={styles.workContainerSubtitle}>
                                 Loading
                             </p>
-                            <a className={styles.workContainerLink}>
+                            <a className={styles.workContainerLink} href='#'>
                                 https://seusite.com.br
                             </a>
                         </div>

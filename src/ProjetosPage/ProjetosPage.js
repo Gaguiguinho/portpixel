@@ -78,9 +78,9 @@ const ProjetosPage = () => {
                             <p className={styles.workContainerSubtitle}>
                                 Loading
                             </p>
-                            <a className={styles.workContainerLink} href='#'>
+                            {/* <a className={styles.workContainerLink} href='#'>
                                 https://seusite.com.br
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 
@@ -94,14 +94,14 @@ const ProjetosPage = () => {
                                 Can be you!
                             </h1>
                         </div>
-                        <div className={styles.workContainerBottom}>
+                        {/* <div className={styles.workContainerBottom}>
                             <p className={styles.workContainerSubtitle}>
                                 Loading
                             </p>
                             <a className={styles.workContainerLink} href='#'>
                                 https://seusite.com.br
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                     {/* 
                 <div className={styles.workContainer}>

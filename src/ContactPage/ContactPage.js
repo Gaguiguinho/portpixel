@@ -5,7 +5,7 @@ import { PiCursorClickFill } from "react-icons/pi";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { IoMdRocket } from "react-icons/io";
+
 
 const ContactPage = () => {
     const [formData, setFormData] = useState({
